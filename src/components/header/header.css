@@ -1,0 +1,40 @@
+.navbar-collapse {
+    flex-grow: .1!important;
+}
+.textWhiteColor {
+    color: var(--white)!important;
+}
+
+.navbar {
+    position: fixed!important;
+    width: 100%;
+    z-index: 999;
+}
+.hideHeader {
+    display: none!important;
+  }
+.dropdown-item {
+    display: flex!important;
+}
+
+.userName {
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 0px .2rem;
+}
+
+
+
+
+@media (max-width: 430px) {
+    .userName {
+        display: none;
+    }
+    .dropdown-menu[data-bs-popper] {
+    left: -93px!important;
+}
+h3 {
+    font-size: calc(1.1rem + .6vw)!important;
+}
+
+}

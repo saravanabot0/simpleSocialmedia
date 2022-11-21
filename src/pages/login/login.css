@@ -1,0 +1,47 @@
+.overallLoginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+.headerLoginStyle {
+    font-size: 2.5rem;
+    padding: 4rem 0 2rem;
+}
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 4rem;
+    border-radius: .6rem;
+}
+.loginFontStyle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+    .headerLoginStyle {
+        font-size: 2rem;
+    }
+    .loginFontStyle {
+        font-size: 0.9rem;
+    }
+    .loginBox {
+        padding: 2rem;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 800px) { 
+    .headerLoginStyle {
+        font-size: 2rem;
+    }
+    .loginFontStyle {
+        font-size: 1rem;
+    }
+   }

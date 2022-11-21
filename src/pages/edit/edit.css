@@ -1,0 +1,33 @@
+.overAllEditPostContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.editPostContainer {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .7rem;
+    width: 60%;
+    padding: 2rem;
+}
+.form-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .editPostContainer {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: .7rem;
+        width: 80%;
+        padding: 2rem;
+    }
+}
+@media (max-width: 450px) {
+    .editPostContainer {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: .7rem;
+        width: 90%;
+        padding: 2rem;
+    }
+}

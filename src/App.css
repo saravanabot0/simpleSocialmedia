@@ -1,0 +1,17 @@
+
+.App {
+  height: 100vh;
+}
+.headerHeight {
+  height: 11%;
+  max-height: 100%;
+}
+.hideHeader {
+  display: none;
+}
+.postHeight {
+  height: 89%;
+  max-height: 100%;
+  overflow-x: auto;
+}
+
