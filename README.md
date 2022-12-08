@@ -2,6 +2,9 @@
 
 Any user can see the post when a user wants to edit the post means, the user can log in there google account then, they can edit, delete and create the Posts. This all done by ---- React js, mock api using Json Placeholder, React Bootstrap, Google sign user stored in Firebase.
 
+# Output look like this
+https://www.loom.com/share/fab295933bc14d3ba39d7c50b83cdca9
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
